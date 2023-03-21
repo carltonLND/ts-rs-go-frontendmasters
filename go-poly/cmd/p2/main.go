@@ -60,10 +60,6 @@ func parseLine(line string) (*Line, error) {
 		return nil, err
 	}
 
-	if err != nil {
-		return nil, err
-	}
-
 	return &Line{
 		p1: p1,
 		p2: p2,
